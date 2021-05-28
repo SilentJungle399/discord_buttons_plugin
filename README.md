@@ -122,7 +122,7 @@ The parameters are:
 ### What is the difference between ephemeral and normal messages?
 - Normal
 
-![](https://media.discordapp.net/attachments/542672943872999424/847887624878293042/unknown.png?width=309&height=242)
+![](https://media.discordapp.net/attachments/542672943872999424/847901070020837396/unknown.png?width=309&height=242)
 - Ephemeral
 
-![](https://media.discordapp.net/attachments/542672943872999424/847901070020837396/unknown.png?width=309&height=242)
+![](https://media.discordapp.net/attachments/542672943872999424/847887835583479839/unknown.png?width=309&height=242)
