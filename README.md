@@ -67,7 +67,7 @@ ActionRow([
 ![](https://discord.com/assets/7bb017ce52cfd6575e21c058feb3883b.png)
 
 ```py
-# To use different styles, the "style" attribute must be changed
+# To use different styles, the "style" argument must be changed
 Button(
 	style = ButtonType().Primary
 )
