@@ -42,8 +42,8 @@ class InteractionContext:
 		content=None, *, 
 		channel=None, 
 		tts=False,
-        embed=None,
-        allowed_mentions=None,
+		embed=None,
+		allowed_mentions=None,
 		flags=None
 	):
 
