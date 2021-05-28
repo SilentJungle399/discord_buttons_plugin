@@ -8,7 +8,6 @@ buttons = ButtonsClient(bot)
 @bot.event
 async def on_ready():
 	print("The bot is ready!")
-	bot.load_extension("eval")
 
 @buttons.click
 async def button_one(ctx):
