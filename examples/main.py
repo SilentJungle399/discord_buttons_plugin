@@ -31,17 +31,17 @@ async def create(ctx):
 				Button(
 					label="Hello", 
 					style=ButtonType().Primary, 
-					custom_id="button_one"          # Refer to line 14
+					custom_id="button_one"          # Refer to line 13
 				),Button(
 					label="New colour",
 					style=ButtonType().Secondary,
-					custom_id="button_two"          # Refer to line 18
+					custom_id="button_two"          # Refer to line 17
 				)
 			]),ActionRow([
 				Button(
 					label="Another one",
 					style=ButtonType().Danger,
-					custom_id="button_three"        # Refer to line 22
+					custom_id="button_three"        # Refer to line 21
 				)
 			])
 		]
