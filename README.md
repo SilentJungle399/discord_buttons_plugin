@@ -31,7 +31,7 @@ await buttons.send(
 ```
 Breaking it down:
 ```py
-# Create an action row, it takes in one arguement, 
+# Create an action row, it takes in one argument, 
 # which is the list of buttons that will go inside
 # that action row.
 # There can be more than one action rows.
