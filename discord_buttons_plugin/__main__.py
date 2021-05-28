@@ -39,10 +39,10 @@ class ButtonsClient():
 	async def send(self, content=None, *, 
 		channel=None, 
 		tts=False,
-        embed=None,
-        nonce=None,
-        allowed_mentions=None,
-        components=None
+		embed=None,
+		nonce=None,
+		allowed_mentions=None,
+		components=None
 	):
 		retcomp = []
 		for i in components:
