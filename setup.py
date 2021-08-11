@@ -11,6 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=["discord.py", "requests"],
+    packages=setuptools.find_packages(),
     url="https://github.com/SilentJungle399/discord_buttons_plugin",
     classifiers=[
         "Programming Language :: Python :: 3",
