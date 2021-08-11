@@ -10,7 +10,7 @@ setuptools.setup(
     description="A simple module to use for buttons in discord.py",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(),
+    install_requires=["discord.py", "requests"],
     url="https://github.com/SilentJungle399/discord_buttons_plugin",
     classifiers=[
         "Programming Language :: Python :: 3",
