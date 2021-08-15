@@ -107,7 +107,7 @@ The `ctx` parameter is an instance of `InteractionContext`
 - `.message` [discord.Message](https://discordpy.readthedocs.io/en/latest/api.html#discord.Message) : The message where buttons are present
 - `.channel` [discord.TextChannel](https://discordpy.readthedocs.io/en/latest/api.html#discord.TextChannel) : The channel where buttons are present.
 - `.guild` [discord.Guild](https://discordpy.readthedocs.io/en/latest/api.html#discord.Guild) : The guild where buttons are present.
-- `.member` [discord.User](https://discordpy.readthedocs.io/en/latest/api.html#discord.User) : The user who clicked the button. Remember this is `discord.User` and not `discord.Member`
+- `.member` [discord.Member](https://discordpy.readthedocs.io/en/stable/api.html#member) : The member who clicked the button.
 
 #### Methods:
 - `await .reply(content=None, *, channel=None, tts=False, embed=None, flags=None)`:

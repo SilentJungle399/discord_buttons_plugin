@@ -28,9 +28,9 @@ class InteractionContext:
 		if not self.guild:
 			self.guild = await self.bot.fetch_guild(int(data["guild_id"]))
 
-		self.member = self.bot.get_user(int(data["member"]["user"]["id"]))
+		self.member = self.guild.get_member(int(data["member"]["user"]["id"]))
 		if not self.member:
-			self.member = await self.bot.fetch_user(int(data["member"]["user"]["id"]))
+			self.member = await self.guild.fetch_member(int(data["member"]["user"]["id"]))
 
 		self.message = await self.channel.fetch_message(int(data["message"]["id"]))
 		self.data = await ContextData().from_json(data["data"])
